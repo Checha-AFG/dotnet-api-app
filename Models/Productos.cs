@@ -7,8 +7,8 @@ namespace API_APP.Models{
         public int idmarca{get;set;}
         public string descripcion{get;set;}
         public string imagen{get;set;}
-        public float precio_costo{get;set;}
-        public float precio_venta{get;set;}
+        public string precio_costo{get;set;}
+        public string precio_venta{get;set;}
         public int existencia{get;set;}
         public string fecha_ingreso{get;set;}
     }
